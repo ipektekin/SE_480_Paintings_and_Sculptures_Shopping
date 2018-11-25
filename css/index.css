@@ -1,21 +1,26 @@
+/* General Css Fixes */
 h1,h2,h3,h4,h5,h6 {
     color: rgb(37, 32, 32);
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Bahnschrift Light, Helvetica, sans-serif;
     font-size: 25px;
 }
 
-#container {
-    display: block;
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #333;
 }
 
+/* Navbar fixes */
 .navbar {
     overflow: hidden;
     background-color: #333;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Bahnschrift Condensed, Helvetica, sans-serif;
     width: 100%;
     padding: 0;
     margin: 0;
+    height: 7%;
 }
 
 .navbar a {
@@ -73,16 +78,63 @@ h1,h2,h3,h4,h5,h6 {
     display: block;
 }
 
+/* Entarance fixes */
 #entarance {
     padding: 0;
-    margin: 0;
-    background: #d1301b;
+    margin: 0 auto;
+    background: #009999;
     width: 100%;
 }
 
 #entarance p {
     color: white;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Bell MT, Helvetica, sans-serif;
     font-size: 25px;
+    
+}
+
+/* Gallery fixes */
+#gallery {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 3px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 3px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 200px;
+}
+
+div.desc {
+    padding: 15px;
+    font-size: 17px;
+    text-align: center;
+    font-family: Berlin Sans FB, Helvetica, sans-serif;
+    color: white;
+}
+
+div.price {
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+
+.buy {
+    font-family: Berlin Sans FB, Helvetica, sans-serif; 
+    background-color: #008CBA;
+    border: none;
+    font-size: 20px;
+}
+.buy:hover {
+    background-color: rgb(56, 149, 180);
 }
