@@ -12,6 +12,14 @@ body {
     background-color: #333;
 }
 
+input[type=text] {
+    height: 20px;
+}
+
+input[type=password] {
+    height: 20px;
+}
+
 /* Navbar fixes */
 .navbar {
     overflow: hidden;
@@ -137,4 +145,67 @@ div.price {
 }
 .buy:hover {
     background-color: rgb(56, 149, 180);
+}
+
+/*Sign page fixes*/
+
+#registerinfo {
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+    background: #009999;
+    width: 100%;
+}
+
+#registerinfo p {
+    color: white;
+    text-align: center;
+    font-family: Bell MT, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.container {
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+    display: block;
+}
+
+.login {
+    float: right;
+    margin-top: 85px;
+    padding: 60px;
+    padding-top: 100px;
+    padding-bottom: 135px;
+    background: #1a66ff;
+}
+
+.login p {
+    font-family: Lucida Sans Unicode, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.register {
+    margin-top: 85px;
+    padding: 60px;
+    padding-top: 100px;
+    float: left;
+    background: #33ff33;
+}
+
+.register p {
+    font-family: Lucida Sans Unicode, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.sendbtn {
+    font-family: Berlin Sans FB, Helvetica, sans-serif; 
+    background-color:#1a1a1a;
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+
+.sendbtn:hover {
+    background-color:#333333;
 }

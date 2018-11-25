@@ -1,37 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Login-Register</title>
-  <meta charset="utf-8">
-</head>
-<body>
-
-<div class="jumbotron text-center">
-  <h1>Get Started</h1>
-</div>
-  
-<div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <h3>Login</h3>
-      <p>Username: <input type ="text" name="ad" ></p>
-      <p>Password:<input type="password" name="soyad" required></p>
-      <p>Remember me: <input type="checkbox" name="benihatirla"></p>
-      <input type="submit" value="Login">
-      <input type="submit" value="Forget Password">
-    </div>
-    <div class="col-sm-4 register">
-      <h3>Register</h3>
-        <p>Name:<input type="text" name="ad" required></p>
-        <p>Surname :<input type="text" name="soyad" required></p>
-        <p>Username: <input type ="text" name="ad" ></p>
-        <p>Password:<input type="password" name="soyad" required></p>
-        <p>E-Mail :<input type="email" name="email"></p>
-        <input type="submit" value="Register">
-    </div>
+  <head>
+    <title>Login-Register</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+  </head>
+  <body> 
+  <!--Navbar-->
+  <div class="navbar">
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+          <button class="dropbtn">Paintings 
+              <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+              <a href="#">Leonardo da Vinci</a>
+              <a href="#">Vincent Van Gogh</a>
+              <a href="#">Pablo Picasso</a>
+              <a href="#">Salvador Dali</a>
+          </div>
+      </div>
+      <div class="dropdown">
+          <button class="dropbtn">Sculptures 
+              <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+              <a href="#">Michelangelo</a>
+              <a href="#">Donatello</a>
+              <a href="#">Aguste Rodin</a>
+              <a href="#">Henry Moore</a>
+          </div>
+      </div> 
+      <a style="float:right" href="#about">About</a>
+      <a style="float:right" href="sign.html">Sign In</a>
   </div>
-</div>
+  <!--Navbar ending--> 
+  <div class="container">
+    <div id="registerinfo">
+      <p>Before you buy something, it will be more convinient to register the site
+        <br>
+        or if you have an account already you can login.
+      </p>
+    </div>
+       <div class="register">
+        <h3>Register</h3>
+          <p>Name: <input type="text" name="name" required></p>
+          <p>Surname: <input type="text" name="surname" required></p>
+          <p>Username: <input type ="text" name="username" ></p>
+          <p>Password: <input type="password" name="password" required></p>
+          <p>E-Mail: <input type="email" name="email"></p>
+          <input class="sendbtn" name="registerSubmit" type="submit" value="Register">
+      </div>
+      <div class="login">
+          <h3>Login</h3>
+          <p>Username: <input type ="text" name="name" ></p>
+          <p>Password: <input type="password" name="surname" required></p>
+          <p>Remember me: <input type="checkbox" name="rememberMe"></p>
+          <input class="sendbtn" name="loginSubmit" type="submit" value="Login">
+          <input class="sendbtn" name="ForgetPasswordSubmit" type="submit" value="Forget Password">
+        </div>
+  </div>
 
 </body>
 </html>
+
 
