@@ -1,0 +1,1 @@
+// Script random image and sculpture generation
