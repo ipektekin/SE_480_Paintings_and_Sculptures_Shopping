@@ -130,6 +130,7 @@ div.desc {
     text-align: center;
     font-family: Berlin Sans FB, Helvetica, sans-serif;
     color: white;
+    display: block;
 }
 
 div.price {
