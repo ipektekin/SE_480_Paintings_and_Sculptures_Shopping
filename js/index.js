@@ -22,54 +22,54 @@ sculptures[3] = 'Michelangelo';
 //--------------------------Painters-------------------------------
 
 // Leonardo Da Vinci
-var leo1 = new ArtPiece('img/paintings/leanardo-da-vinci/mona-lisa.png', 'Mona Lisa', painters[0], '500$');
-var leo2 = new ArtPiece('img/paintings/leanardo-da-vinci/last-supper.jpg', 'Last Supper', painters[0], '100$');
-var leo3 = new ArtPiece('img/paintings/leanardo-da-vinci/lady-with-an-ermine.png', 'Lady With an Ermine', painters[0], '200$');
-var leo4 = new ArtPiece('img/paintings/leanardo-da-vinci/salvator-mundi.png', 'Salvator Mundi', painters[0], '95$');
+const leo1 = new ArtPiece('img/paintings/leanardo-da-vinci/mona-lisa.png', 'Mona Lisa', painters[0], '500$');
+const leo2 = new ArtPiece('img/paintings/leanardo-da-vinci/last-supper.jpg', 'Last Supper', painters[0], '100$');
+const leo3 = new ArtPiece('img/paintings/leanardo-da-vinci/lady-with-an-ermine.png', 'Lady With an Ermine', painters[0], '200$');
+const leo4 = new ArtPiece('img/paintings/leanardo-da-vinci/salvator-mundi.png', 'Salvator Mundi', painters[0], '95$');
 
 // Pablo Picasso
-var pic1 = new ArtPiece('img/paintings/pablo-picasso/family-of-saltimbanques.jpg', 'Family of Saltimbanques', painters[1], '200$');
-var pic2 = new ArtPiece('img/paintings/pablo-picasso/portrait-of-gertrude-stein.png', 'Portrait of Gertrude Stein', painters[1], '300$');
-var pic3 = new ArtPiece('img/paintings/pablo-picasso/the-old-guitarist.png', 'The Old Guitarist', painters[1], '100$');
-var pic4 = new ArtPiece('img/paintings/pablo-picasso/the-weeping-woman.png', 'The Weeping Woman', painters[1], '400$');
+const pic1 = new ArtPiece('img/paintings/pablo-picasso/family-of-saltimbanques.jpg', 'Family of Saltimbanques', painters[1], '200$');
+const pic2 = new ArtPiece('img/paintings/pablo-picasso/portrait-of-gertrude-stein.png', 'Portrait of Gertrude Stein', painters[1], '300$');
+const pic3 = new ArtPiece('img/paintings/pablo-picasso/the-old-guitarist.png', 'The Old Guitarist', painters[1], '100$');
+const pic4 = new ArtPiece('img/paintings/pablo-picasso/the-weeping-woman.png', 'The Weeping Woman', painters[1], '400$');
 
 // Salvador Dali
-var dali1 = new ArtPiece('img/paintings/salvador-dali/melting-watch.png', 'Melting Watch', painters[2], '300$');
-var dali2 = new ArtPiece('img/paintings/salvador-dali/reflecting-elephants.png', 'Reflecting Animals', painters[2], '250$');
-var dali3 = new ArtPiece('img/paintings/salvador-dali/the-burning-giraffe.png', 'The Burning Giraffe', painters[2], '95$');
-var dali4 = new ArtPiece('img/paintings/salvador-dali/the-persistence-of-memory.jpg', 'The Persistence of Memory', painters[2], '200$');
+const dali1 = new ArtPiece('img/paintings/salvador-dali/melting-watch.png', 'Melting Watch', painters[2], '300$');
+const dali2 = new ArtPiece('img/paintings/salvador-dali/reflecting-elephants.png', 'Reflecting Animals', painters[2], '250$');
+const dali3 = new ArtPiece('img/paintings/salvador-dali/the-burning-giraffe.png', 'The Burning Giraffe', painters[2], '95$');
+const dali4 = new ArtPiece('img/paintings/salvador-dali/the-persistence-of-memory.jpg', 'The Persistence of Memory', painters[2], '200$');
 
 // Vincent Van Gogh
-var van1 = new ArtPiece('img/paintings/vincent-van-gogh/cafe-terrace-at-night.png', 'Caffe Terrace at Night', painters[3], '200$');
-var van2 = new ArtPiece('img/paintings/vincent-van-gogh/self-portrait.png', 'Self Portrait', painters[3], '100$');
-var van3 = new ArtPiece('img/paintings/vincent-van-gogh/starry-night.png', 'Starry Night', painters[3], '350$');
-var van4 = new ArtPiece('img/paintings/vincent-van-gogh/wheatfield-with-crows.png', 'Wheatfield With Crows', painters[3], '110$');
+const van1 = new ArtPiece('img/paintings/vincent-van-gogh/cafe-terrace-at-night.png', 'Caffe Terrace at Night', painters[3], '200$');
+const van2 = new ArtPiece('img/paintings/vincent-van-gogh/self-portrait.png', 'Self Portrait', painters[3], '100$');
+const van3 = new ArtPiece('img/paintings/vincent-van-gogh/starry-night.png', 'Starry Night', painters[3], '350$');
+const van4 = new ArtPiece('img/paintings/vincent-van-gogh/wheatfield-with-crows.png', 'Wheatfield With Crows', painters[3], '110$');
 
 //----------------------------------Sculptures---------------------------------
 
 // Aguste Rodin
-var aug1 = new ArtPiece('img/sculptures/auguste-rodin/man-with-broken-nose.png', 'Man With Broken Nose', sculptures[0], '100$');
-var aug2 = new ArtPiece('img/sculptures/auguste-rodin/the-burghers-of-calais.png', 'The Burghers of Calais', sculptures[0], '120$');
-var aug3 = new ArtPiece('img/sculptures/auguste-rodin/the-cathedral.png', 'The Cathedral', sculptures[0], '200$');
-var aug4 = new ArtPiece('img/sculptures/auguste-rodin/the-thinker.png', 'The Thinker', sculptures[0], '300$');
+const aug1 = new ArtPiece('img/sculptures/auguste-rodin/man-with-broken-nose.png', 'Man With Broken Nose', sculptures[0], '100$');
+const aug2 = new ArtPiece('img/sculptures/auguste-rodin/the-burghers-of-calais.png', 'The Burghers of Calais', sculptures[0], '120$');
+const aug3 = new ArtPiece('img/sculptures/auguste-rodin/the-cathedral.png', 'The Cathedral', sculptures[0], '200$');
+const aug4 = new ArtPiece('img/sculptures/auguste-rodin/the-thinker.png', 'The Thinker', sculptures[0], '300$');
 
 // Donatello
-var don1 = new ArtPiece('img/sculptures/donatello/equestrian-statue-of-gattamelata.png', 'Equestrian Statue of Gattamelata', sculptures[1], '220$');
-var don2 = new ArtPiece('img/sculptures/donatello/john-the-evangelist.png', 'John the Evangelist', sculptures[1], '120$');
-var don3 = new ArtPiece('img/sculptures/donatello/saint-mark.png', 'Saint Mark', sculptures[1], '110$');
-var don4 = new ArtPiece('img/sculptures/donatello/zuccone.png', 'Zuccone', sculptures[1], '540$');
+const don1 = new ArtPiece('img/sculptures/donatello/equestrian-statue-of-gattamelata.png', 'Equestrian Statue of Gattamelata', sculptures[1], '220$');
+const don2 = new ArtPiece('img/sculptures/donatello/john-the-evangelist.png', 'John the Evangelist', sculptures[1], '120$');
+const don3 = new ArtPiece('img/sculptures/donatello/saint-mark.png', 'Saint Mark', sculptures[1], '110$');
+const don4 = new ArtPiece('img/sculptures/donatello/zuccone.png', 'Zuccone', sculptures[1], '540$');
 
 // Henry Moore
-var hen1 = new ArtPiece('img/sculptures/henry-moore/nuclear-energy.png', 'Nuclear Energy', sculptures[2], '300$');
-var hen2 = new ArtPiece('img/sculptures/henry-moore/seated-woman.png', 'Seated Woman', sculptures[2], '200$');
-var hen3 = new ArtPiece('img/sculptures/henry-moore/three-standing-figures.png', 'Three Standing Figure', sculptures[2], '100$');
-var hen4 = new ArtPiece('img/sculptures/henry-moore/two-piece-reclining-figure-points.png', 'Two Piece Reclining Figure Points', sculptures[2], '500$');
+const hen1 = new ArtPiece('img/sculptures/henry-moore/nuclear-energy.png', 'Nuclear Energy', sculptures[2], '300$');
+const hen2 = new ArtPiece('img/sculptures/henry-moore/seated-woman.png', 'Seated Woman', sculptures[2], '200$');
+const hen3 = new ArtPiece('img/sculptures/henry-moore/three-standing-figures.png', 'Three Standing Figure', sculptures[2], '100$');
+const hen4 = new ArtPiece('img/sculptures/henry-moore/two-piece-reclining-figure-points.png', 'Two Piece Reclining Figure Points', sculptures[2], '500$');
 
 // Michelangelo
-var mic1 = new ArtPiece('img/sculptures/michelangelo/david.png', 'David', sculptures[3], '200$');
-var mic2 = new ArtPiece('img/sculptures/michelangelo/madonna-of-bruges.png', 'Modanno of Bruges', sculptures[3], '100$');
-var mic3 = new ArtPiece('img/sculptures/michelangelo/moses.png', 'Moses', sculptures[3], '400$');
-var mic4 = new ArtPiece('img/sculptures/michelangelo/pieta.png', 'Pieta', sculptures[3], '100$');
+const mic1 = new ArtPiece('img/sculptures/michelangelo/david.png', 'David', sculptures[3], '200$');
+const mic2 = new ArtPiece('img/sculptures/michelangelo/madonna-of-bruges.png', 'Modanno of Bruges', sculptures[3], '100$');
+const mic3 = new ArtPiece('img/sculptures/michelangelo/moses.png', 'Moses', sculptures[3], '400$');
+const mic4 = new ArtPiece('img/sculptures/michelangelo/pieta.png', 'Pieta', sculptures[3], '100$');
 
 var randomArtPieceArray = new Array();
 

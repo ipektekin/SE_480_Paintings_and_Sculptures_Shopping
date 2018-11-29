@@ -20,6 +20,8 @@ input[type=password] {
     height: 20px;
 }
 
+/*------------------INDEX PAGE-----------------------*/
+
 /* Navbar fixes */
 .navbar {
     overflow: hidden;
@@ -104,7 +106,7 @@ input[type=password] {
 
 /* Gallery fixes */
 #gallery {
-    width: 1000px;
+    width: 800px;
     margin: 0 auto;
 }
 
@@ -113,6 +115,8 @@ div.gallery {
     border: 3px solid #ccc;
     float: left;
     width: 180px;
+    height: 400px;
+    margin-bottom: 20px;
 }
 
 div.gallery:hover {
@@ -148,6 +152,30 @@ div.price {
     background-color: rgb(56, 149, 180);
 }
 
+/* Footerın ortalanması */
+.footer {
+    overflow: hidden;
+    background-color: white;
+    font-family: Bahnschrift Condensed, Helvetica, sans-serif;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 7%;
+    text-align: center;
+}
+
+.footer li a i{
+    float: left;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+
+
+/*------SIGN PAGE----------*/
+
 /*Sign page fixes*/
 
 #registerinfo {
@@ -167,7 +195,7 @@ div.price {
 
 .container {
     text-align: center;
-    width: 800px;
+    width: 900px;
     margin: 0 auto;
     display: block;
 }
@@ -175,10 +203,10 @@ div.price {
 .login {
     float: right;
     margin-top: 85px;
-    padding: 60px;
+    padding: 50px;
     padding-top: 100px;
     padding-bottom: 135px;
-    background: #1a66ff;
+    background: #60db81;
 }
 
 .login p {
@@ -188,15 +216,16 @@ div.price {
 
 .register {
     margin-top: 85px;
-    padding: 60px;
+    padding: 50px;
     padding-top: 100px;
     float: left;
-    background: #33ff33;
+    background: #d0d4db;
 }
 
 .register p {
     font-family: Lucida Sans Unicode, Helvetica, sans-serif;
     font-size: 20px;
+    color: black;
 }
 
 .sendbtn {
@@ -209,4 +238,12 @@ div.price {
 
 .sendbtn:hover {
     background-color:#333333;
+}
+
+#confirmMessage {
+    font-family: Berlin Sans FB, Helvetica, sans-serif;
+}
+
+#verifyMessage {
+    font-family: Berlin Sans FB, Helvetica, sans-serif;
 }
