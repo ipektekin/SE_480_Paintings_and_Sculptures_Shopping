@@ -163,11 +163,12 @@ div.price {
     margin: 0;
     height: 7%;
     text-align: center;
+    padding-bottom: 20px;
 }
 
-.footer li a i{
+.footer a {
     padding-top: 15px;
-    display: inline-block;
+    margin: 1em 2em;
     text-decoration: none;
     text-align: center;
 }
