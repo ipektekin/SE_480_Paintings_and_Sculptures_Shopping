@@ -201,6 +201,7 @@ div.price {
     width: 900px;
     margin: 0 auto;
     display: block;
+    margin-bottom: 20px;
 }
 
 .login {
