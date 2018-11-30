@@ -154,6 +154,7 @@ div.price {
 
 /* Footerın ortalanması */
 .footer {
+    
     overflow: hidden;
     background-color: white;
     font-family: Bahnschrift Condensed, Helvetica, sans-serif;
@@ -165,7 +166,8 @@ div.price {
 }
 
 .footer li a i{
-    float: left;
+    padding-top: 15px;
+    display: inline-block;
     text-decoration: none;
     text-align: center;
 }
