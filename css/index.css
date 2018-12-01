@@ -251,3 +251,17 @@ div.price {
 #verifyMessage {
     font-family: Berlin Sans FB, Helvetica, sans-serif;
 }
+
+/*----------------------------PROFILE PAGE-------------------------*/
+
+.profile {
+    background: #009999;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+.artPieces {
+    width: 800px;
+    margin: 0 auto;
+}

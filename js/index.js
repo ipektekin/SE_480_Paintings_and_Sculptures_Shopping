@@ -99,42 +99,42 @@ for (i=0; i<9; i++) {
 console.log(mainPageArtPieceArray);
 
 // Direk koddan yaratılan resim
-document.getElementById('gallery').innerHTML = "<div class='gallery'><a target='_blank' href='"+mainPageArtPieceArray[0].image+"'>"+
+document.getElementById('gallery').innerHTML = "<div class='gallery'>"+
 "<img src='"+mainPageArtPieceArray[0].image+"' width='300' height='200'></a>"+"<div class='desc'>Art Piece: "+mainPageArtPieceArray[0].name+"<br>"+
 "Artist: "+mainPageArtPieceArray[0].artist+"<div class='price'>Price: "+mainPageArtPieceArray[0].price+"</div><a href='sign.html'><button class='buy'>Buy</button></a>"+
 "</div></div>"
 +
-"<div class='gallery'><a target='_blank' href='"+mainPageArtPieceArray[1].image+"'>"+
+"<div class='gallery'>"+
 "<img src='"+mainPageArtPieceArray[1].image+"' width='300' height='200'></a>"+"<div class='desc'>Art Piece: "+mainPageArtPieceArray[1].name+"<br>"+
 "Artist: "+mainPageArtPieceArray[1].artist+"<div class='price'>Price: "+mainPageArtPieceArray[1].price+"</div><a href='sign.html'><button class='buy'>Buy</button></a>"+
 "</div></div>"
 +
-"<div class='gallery'><a target='_blank' href='"+mainPageArtPieceArray[2].image+"'>"+
+"<div class='gallery'>"+
 "<img src='"+mainPageArtPieceArray[2].image+"' width='300' height='200'></a>"+"<div class='desc'>Art Piece: "+mainPageArtPieceArray[2].name+"<br>"+
 "Artist: "+mainPageArtPieceArray[2].artist+"<div class='price'>Price: "+mainPageArtPieceArray[2].price+"</div><a href='sign.html'><button class='buy'>Buy</button></a>"+
 "</div></div>"
 +
-"<div class='gallery'><a target='_blank' href='"+mainPageArtPieceArray[3].image+"'>"+
+"<div class='gallery'>"+
 "<img src='"+mainPageArtPieceArray[3].image+"' width='300' height='200'></a>"+"<div class='desc'>Art Piece: "+mainPageArtPieceArray[3].name+"<br>"+
 "Artist: "+mainPageArtPieceArray[3].artist+"<div class='price'>Price: "+mainPageArtPieceArray[3].price+"</div><a href='sign.html'><button class='buy'>Buy</button></a>"+
 "</div></div>"
 +
-"<div class='gallery'><a target='_blank' href='"+mainPageArtPieceArray[4].image+"'>"+
+"<div class='gallery'>"+
 "<img src='"+mainPageArtPieceArray[4].image+"' width='300' height='200'></a>"+"<div class='desc'>Art Piece: "+mainPageArtPieceArray[4].name+"<br>"+
 "Artist: "+mainPageArtPieceArray[4].artist+"<div class='price'>Price: "+mainPageArtPieceArray[4].price+"</div><a href='sign.html'><button class='buy'>Buy</button></a>"+
 "</div></div>"
 +
-"<div class='gallery'><a target='_blank' href='"+mainPageArtPieceArray[5].image+"'>"+
+"<div class='gallery'>"+
 "<img src='"+mainPageArtPieceArray[5].image+"' width='300' height='200'></a>"+"<div class='desc'>Art Piece: "+mainPageArtPieceArray[5].name+"<br>"+
 "Artist: "+mainPageArtPieceArray[5].artist+"<div class='price'>Price: "+mainPageArtPieceArray[5].price+"</div><a href='sign.html'><button class='buy'>Buy</button></a>"+
 "</div></div>"
 +
-"<div class='gallery'><a target='_blank' href='"+mainPageArtPieceArray[6].image+"'>"+
+"<div class='gallery'>"+
 "<img src='"+mainPageArtPieceArray[6].image+"' width='300' height='200'></a>"+"<div class='desc'>Art Piece: "+mainPageArtPieceArray[6].name+"<br>"+
 "Artist: "+mainPageArtPieceArray[6].artist+"<div class='price'>Price: "+mainPageArtPieceArray[6].price+"</div><a href='sign.html'><button class='buy'>Buy</button></a>"+
 "</div></div>"
 +
-"<div class='gallery'><a target='_blank' href='"+mainPageArtPieceArray[7].image+"'>"+
+"<div class='gallery'>"+
 "<img src='"+mainPageArtPieceArray[7].image+"' width='300' height='200'></a>"+"<div class='desc'>Art Piece: "+mainPageArtPieceArray[7].name+"<br>"+
 "Artist: "+mainPageArtPieceArray[7].artist+"<div class='price'>Price: "+mainPageArtPieceArray[7].price+"</div><a href='sign.html'><button class='buy'>Buy</button></a>"+
 "</div></div>";
