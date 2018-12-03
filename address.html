@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Paintings and Sculptures Shopping</title>
+</head>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+    
+</script>
+    <body>
+    <!--Navbar-->
+    <div class="navbar">
+        <a href="index.html" onClick="window.reload();">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn">Paintings 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="profiles/leonardo-da-vinci.html">Leonardo da Vinci</a>
+                <a href="#">Vincent Van Gogh</a>
+                <a href="#">Pablo Picasso</a>
+                <a href="#">Salvador Dali</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Sculptures 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Michelangelo</a>
+                <a href="#">Donatello</a>
+                <a href="#">Aguste Rodin</a>
+                <a href="#">Henry Moore</a>
+            </div>
+        </div> 
+        <a style="float:right" href="#about">About</a>
+        <a style="float:right" href="sign.html">Sign In</a>
+    </div>
+    <!--Navbar ending-->
+    <!--Address-->
+    <div class="container">
+        <script type= "text/javascript" src = "js/address.js"></script>
+      <form>
+        <p>Name: <input type="text" name="name" required></p>
+        <p>Surname: <input type="text" name="surname" required></p>
+        <p>Select Country:   <select id="country" name ="country"></select> </p>
+        <p>Select State: <select name ="state" id ="state"></select></p>
+        <p><textarea rows="4" cols="50" placeholder="Address"></textarea></p>
+      </form>
+    </div>
+
+    <script language="javascript">
+            populateCountries("country", "state"); 
+            // first parameter is id of country drop-down and second 
+            //parameter is id of state drop-down
+    </script>
+        
+        </body>
+    <!--Address ending-->
+    <!--Footer-->
+    <div class="footer">
+        <p>If you enjoyed our website you can also visit our social media adresses.</p>
+        
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-github"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+    
+    </div>
+    <!--Footer ending-->
+</body>
+    <script src="js/index.js"></script>
+</html>
