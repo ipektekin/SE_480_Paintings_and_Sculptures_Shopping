@@ -110,6 +110,7 @@ input[type=password] {
 }
 
 div.gallery {
+    margin-top: 20px;
     margin: 5px;
     border: 3px solid #ccc;
     float: left;
@@ -134,6 +135,7 @@ div.desc {
     font-family: Berlin Sans FB, Helvetica, sans-serif;
     color: white;
     display: block;
+    margin-bottom: 50px;
 }
 
 div.price {
@@ -254,6 +256,7 @@ div.price {
     text-align: center;
     width: auto;
     height: auto;
+    margin-bottom: 20px;
 }
 
 .artPieces {
