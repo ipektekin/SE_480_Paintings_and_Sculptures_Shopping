@@ -101,7 +101,6 @@ input[type=password] {
     text-align: center;
     font-family: Bell MT, Helvetica, sans-serif;
     font-size: 25px;
-    
 }
 
 /* Gallery fixes */
@@ -154,7 +153,6 @@ div.price {
 
 /* Footerın ortalanması */
 .footer {
-    
     overflow: hidden;
     background-color: white;
     font-family: Bahnschrift Condensed, Helvetica, sans-serif;
@@ -172,9 +170,6 @@ div.price {
     text-decoration: none;
     text-align: center;
 }
-
-
-
 
 
 /*------SIGN PAGE----------*/
