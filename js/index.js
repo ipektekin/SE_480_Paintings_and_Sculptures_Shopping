@@ -9,7 +9,7 @@ function ArtPiece(id, image, name, artist, price, artistDomain) {
     this.artistDomain = artistDomain;
 }
 
-var artistDomain = new Array();
+let artistDomain = new Array();
 artistDomain[0] = 'profiles/leonardo-da-vinci.html';
 artistDomain[1] = 'profiles/pablo-picasso.html';
 artistDomain[2] = 'profiles/salvador-dali.html';
@@ -19,13 +19,13 @@ artistDomain[5] = 'profiles/donatello.html';
 artistDomain[6] = 'profiles/henry-moore.html';
 artistDomain[7] = 'profiles/michelangelo.html';
 
-var painters = new Array();
+let painters = new Array();
 painters[0] = 'Leonardo Da Vinci';
 painters[1] = 'Pablo Picasso';
 painters[2] = 'Salvador Dali';
 painters[3] = 'Vincent Van Gogh';
 
-var sculptures = new Array();
+let sculptures = new Array();
 sculptures[0] = 'Aguste Rodin';
 sculptures[1] = 'Donatello';
 sculptures[2] = 'Henry Moore';
@@ -83,7 +83,7 @@ const mic2 = new ArtPiece(30,'img/sculptures/michelangelo/madonna-of-bruges.png'
 const mic3 = new ArtPiece(31,'img/sculptures/michelangelo/moses.png', 'Moses', sculptures[3], '400$', artistDomain[7]);
 const mic4 = new ArtPiece(32,'img/sculptures/michelangelo/pieta.png', 'Pieta', sculptures[3], '100$', artistDomain[7]);
 
-var randomArtPieceArray = new Array();
+let randomArtPieceArray = new Array();
 
 randomArtPieceArray.push(leo1); randomArtPieceArray.push(leo2); randomArtPieceArray.push(leo3); randomArtPieceArray.push(leo4);
 randomArtPieceArray.push(pic1); randomArtPieceArray.push(pic2); randomArtPieceArray.push(pic3); randomArtPieceArray.push(pic4);
@@ -97,7 +97,7 @@ randomArtPieceArray.push(mic1); randomArtPieceArray.push(mic2); randomArtPieceAr
 
 console.log(randomArtPieceArray);
 
-var mainPageArtPieceArray = new Array();
+let mainPageArtPieceArray = new Array();
 
 
 function getRandom(array) {

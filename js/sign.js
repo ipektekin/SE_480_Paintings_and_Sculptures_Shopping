@@ -1,15 +1,15 @@
-var greenColor = "#66cc66";
-var redColor = "#ff6666";
+let greenColor = "#66cc66";
+let redColor = "#ff6666";
 //Confirm Password
 function checkPass() {
     //Store the password field objects into variables ...
-    var password = document.getElementById('password');
-    var confirmPassword = document.getElementById('confirmPassword');
+    let password = document.getElementById('password');
+    let confirmPassword = document.getElementById('confirmPassword');
     //Store the Confimation Message Object ...
-    var message = document.getElementById('confirmMessage');
+    let message = document.getElementById('confirmMessage');
     //Set the colors we will be using ...
-    var greenColor = "#66cc66";
-    var redColor = "#ff6666";
+    let greenColor = "#66cc66";
+    let redColor = "#ff6666";
     //Compare the values in the password field 
     //and the confirmation field
     if (password.value == confirmPassword.value) {
@@ -32,13 +32,13 @@ function checkPass() {
 // E-mail Validation
 function Verify_email(email) {
     //Regular expression checks mail.
-    var filter = new RegExp(/^[a-z]{1}[\d\w\.-]+@[\d\w-]{3,}\.[\w]{2,3}(\.\w{2})?$/);
+    let filter = new RegExp(/^[a-z]{1}[\d\w\.-]+@[\d\w-]{3,}\.[\w]{2,3}(\.\w{2})?$/);
     return filter.test(email);
 }
 
 function check_email() {
-    var verifymessage = document.getElementById('verifyMessage');
-    var enter = document.getElementById('E-mail');
+    let verifymessage = document.getElementById('verifyMessage');
+    let enter = document.getElementById('E-mail');
 
     if (!Verify_email(enter.value)) {
         enter.style.backgroundColor = redColor;

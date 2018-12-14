@@ -1,8 +1,8 @@
 
-var country_arr = new Array("Turkey","Cyprus","Germany","Azerbaijan");
+let country_arr = new Array("Turkey","Cyprus","Germany","Azerbaijan");
 
 //states
-var s_a = new Array();
+let s_a = new Array();
 s_a[0]="";
 s_a[1]="Adana|Adiyaman|Afyon|Agri|Aksaray|Amasya|Ankara|Antalya|Ardahan|Artvin|Aydin|Balikesir|Bartin|Batman|Bayburt|Bilecik|Bingol|Bitlis|Bolu|Burdur|Bursa|Canakkale|Cankiri|Corum|Denizli|Diyarbakir|Duzce|Edirne|Elazig|Erzincan|Erzurum|Eskisehir|Gaziantep|Giresun|Gumushane|Hakkari|Hatay|Icel|Igdir|Isparta|Istanbul|Izmir|Kahramanmaras|Karabuk|Karaman|Kars|Kastamonu|Kayseri|Kilis|Kirikkale|Kirklareli|Kirsehir|Kocaeli|Konya|Kutahya|Malatya|Manisa|Mardin|Mugla|Mus|Nevsehir|Nigde|Ordu|Osmaniye|Rize|Sakarya|Samsun|Sanliurfa|Siirt|Sinop|Sirnak|Sivas|Tekirdag|Tokat|Trabzon|Tunceli|Usak|Van|Yalova|Yozgat|Zonguldak";
 s_a[2]="Famagusta|Kyrenia|Larnaca|Limassol|Nicosia|Paphos";
@@ -11,28 +11,28 @@ s_a[4]="Abseron Rayonu|Agcabadi Rayonu|Agdam Rayonu|Agdas Rayonu|Agstafa Rayonu|
 
 function populateStates( countryElementId, stateElementId ){
 	
-	var selectedCountryIndex = document.getElementById( countryElementId ).selectedIndex;
+	let selectedCountryIndex = document.getElementById( countryElementId ).selectedIndex;
 
-	var stateElement = document.getElementById( stateElementId );
+	let stateElement = document.getElementById( stateElementId );
 	
 	stateElement.length=0;	
 	stateElement.options[0] = new Option('Select State','');
 	stateElement.selectedIndex = 0;
 	
-	var state_arr = s_a[selectedCountryIndex].split("|");
+	let state_arr = s_a[selectedCountryIndex].split("|");
 	
-	for (var i=0; i<state_arr.length; i++) {
+	for (i=0; i<state_arr.length; i++) {
 		stateElement.options[stateElement.length] = new Option(state_arr[i],state_arr[i]);
 	}
 }
 
 function populateCountries(countryElementId, stateElementId){
 	// given the id of the <select> tag as function argument, it inserts <option> tags
-	var countryElement = document.getElementById(countryElementId);
+	let countryElement = document.getElementById(countryElementId);
 	countryElement.length=0;
 	countryElement.options[0] = new Option('Select Country','-1');
 	countryElement.selectedIndex = 0;
-	for (var i=0; i<country_arr.length; i++) {
+	for (i=0; i<country_arr.length; i++) {
 		countryElement.options[countryElement.length] = new Option(country_arr[i],country_arr[i]);
 	}
 
