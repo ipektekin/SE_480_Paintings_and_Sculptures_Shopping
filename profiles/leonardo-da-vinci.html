@@ -2,8 +2,9 @@
 <html>
     <title>Paintings and Sculptures Shopping</title>
     <head>
-            <link rel="stylesheet" type="text/css" href="../css/index.css">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="../js/imageZoom.js"></script>
     </head>
     <body>
         <!--Navbar-->
@@ -45,7 +46,8 @@
             </div>
             <div class="artPieces">
                     <div class="gallery">
-                        <img src='../img/paintings/leanardo-da-vinci/mona-lisa.png' width="300" height="200">
+                        <figure class="zoom" onmousemove="zoom(event)"><img src='../img/paintings/leanardo-da-vinci/mona-lisa.png' width="300" height="200"></figure>
+                        
                         <div class="desc">Art Piece: Mona Lisa<br>Artist: Leonardo Da Vinci
                             <div class="price">Price: 500$</div>
                             <a href="../address.html"><button class="buy">Buy</button></a>

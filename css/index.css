@@ -20,6 +20,24 @@ input[type=password] {
     height: 20px;
 }
 
+/*------------------------------------IMAGE ZOOM-----------------------------*/
+figure.zoom {
+    /*background-position: 50% 50%;*/
+    /*position: relative;*/
+    overflow: hidden;
+    cursor: zoom-in;
+  }
+  figure.zoom img:hover {
+    opacity: 0;
+  }
+  figure.zoom img {
+    transition: opacity .5s;
+    display: block;
+    width: 100%;
+  }
+  
+
+
 /*------------------INDEX PAGE-----------------------*/
 
 /* Navbar fixes */
@@ -249,6 +267,9 @@ div.price {
     font-family: Berlin Sans FB, Helvetica, sans-serif;
 }
 
+
+
+
 /*----------------------------PROFILE PAGE-------------------------*/
 
 .profile {
@@ -285,3 +306,4 @@ input::-webkit-inner-spin-button {
 #paymentForm p {
     font-family: Lucida Sans Unicode, Helvetica, sans-serif;
 }
+
