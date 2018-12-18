@@ -47,7 +47,7 @@ const pic4 = new ArtPiece(8,'img/paintings/pablo-picasso/the-weeping-woman.png',
 
 // Salvador Dali
 const dali1 = new ArtPiece(9,'img/paintings/salvador-dali/melting-watch.png', 'Melting Watch', painters[2], '300$', artistDomain[2]);
-const dali2 = new ArtPiece(10,'img/paintings/salvador-dali/reflecting-elephants.png', 'Reflecting Animals', painters[2], '250$', artistDomain[2]);
+const dali2 = new ArtPiece(10,'img/paintings/salvador-dali/reflecting-elephants.png', 'Reflecting Elephants', painters[2], '250$', artistDomain[2]);
 const dali3 = new ArtPiece(11,'img/paintings/salvador-dali/the-burning-giraffe.png', 'The Burning Giraffe', painters[2], '95$', artistDomain[2]);
 const dali4 = new ArtPiece(12,'img/paintings/salvador-dali/the-persistence-of-memory.jpg', 'The Persistence of Memory', painters[2], '200$', artistDomain[2]);
 
