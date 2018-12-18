@@ -4,7 +4,9 @@
     <title>Paintings and Sculptures Shopping</title>
 </head>
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type= "text/javascript" src = "js/address.js"></script>
 <script>
     
 </script>
@@ -39,14 +41,19 @@
     </div>
     <!--Navbar ending-->
     <!--Address-->
-    <div class="container">
-        <script type= "text/javascript" src = "js/address.js"></script>
+    <div id="paymentForm">
       <form>
-        <p>Name: <input type="text" name="name" required></p>
-        <p>Surname: <input type="text" name="surname" required></p>
-        <p>Select Country:   <select id="country" name ="country"></select> </p>
-        <p>Select State: <select name ="state" id ="state"></select></p>
-        <p><textarea rows="4" cols="50" placeholder="Address"></textarea></p>
+        <p>Name: <input class="onlyText" type="text" name="name" required></p>
+        <p>Surname: <input class="onlyText" type="text" name="surname" required></p>
+        <p>Select Country:   <select id="country" name ="country" required></select> </p>
+        <p>Select State: <select name ="state" id ="state" required></select></p>
+        <p>Telephone: <input class="onlyNumber" maxlength="11" type="text" name="telephone" required></p>
+        <p>Zip Code: <input class="onlyNumber" maxlength="5" type="text" name="telephone" required></p>
+        <p><textarea rows="4" cols="50" placeholder="Address" required></textarea></p>
+        <p>Credit Card Number: <input class="onlyNumber" maxlength="12" type="text" name="creditCard" required></p>
+        <p>Expiry Date: <select name="months" id="months" required></select> <select name="years" id="years" required></select> </p>
+        <p>CV: <input class="onlyNumber" maxlength="3" type="text" name="CV" required></p>
+        <input type="submit" value="Send">
       </form>
     </div>
 
@@ -69,5 +76,4 @@
     </div>
     <!--Footer ending-->
 </body>
-    <script src="js/index.js"></script>
 </html>

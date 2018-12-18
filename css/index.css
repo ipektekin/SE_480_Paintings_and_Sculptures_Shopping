@@ -263,3 +263,25 @@ div.price {
     width: 800px;
     margin: 0 auto;
 }
+
+/*---------------------------------------ADRESS PAGE----------------------------*/
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+#paymentForm {
+    text-align: center;
+    width: 900px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#paymentForm p {
+    font-family: Lucida Sans Unicode, Helvetica, sans-serif;
+}
