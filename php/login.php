@@ -1,7 +1,7 @@
 <?php
     include("config.php");
 
-    if (isset($_POST['registerSubmit'])) {
+    if (isset($_POST['loginSubmit'])) {
         
     }
 ?>

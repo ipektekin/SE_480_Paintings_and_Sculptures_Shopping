@@ -51,7 +51,7 @@ function generateMonthsAndYears() {
 		document.getElementById("months").options[i+1] = new Option(i+1);
 	}
 	for (i=0; i<5; i++) {
-		document.getElementById("years").options[i+1] = new Option(i+2018);
+		document.getElementById("years").options[i+1] = new Option(i+18);
 	}
 }
 
@@ -84,6 +84,10 @@ function preventTexts() {
     });
 }
 
+
+
 $(document).ready(function() {
-	generateMonthsAndYears();preventNumbers(); preventTexts();
+	generateMonthsAndYears();
+	preventNumbers(); 
+	preventTexts();
 });

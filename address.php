@@ -1,3 +1,6 @@
+<?php
+    include("php/payment.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,18 +45,18 @@
     <!--Navbar ending-->
     <!--Address-->
     <div id="paymentForm">
-      <form>
-        <p>Name: <input class="onlyText" type="text" name="name" required></p>
-        <p>Surname: <input class="onlyText" type="text" name="surname" required></p>
-        <p>Select Country:   <select id="country" name ="country" required></select> </p>
-        <p>Select State: <select name ="state" id ="state" required></select></p>
-        <p>Telephone: <input class="onlyNumber" maxlength="11" type="text" name="telephone" required></p>
-        <p>Zip Code: <input class="onlyNumber" maxlength="5" type="text" name="telephone" required></p>
-        <p><textarea rows="4" cols="50" placeholder="Address" required></textarea></p>
-        <p>Credit Card Number: <input class="onlyNumber" maxlength="12" type="text" name="creditCard" required></p>
-        <p>Expiry Date: <select name="months" id="months" required></select> <select name="years" id="years" required></select> </p>
-        <p>CV: <input class="onlyNumber" maxlength="3" type="text" name="CV" required></p>
-        <input type="submit" value="Send">
+      <form class="paymentForm" action="address.php" method="POST">
+        <p>Name: <input class="onlyText" type="text" name="name" minlength="3" required></p>
+        <p>Surname: <input class="onlyText" type="text" name="surname" minlength="3" required></p>
+        <p>Select Country:   <select id="country" name ="country" required></select> </p><br>
+        <p>Select State: <select name ="state" id ="state" required></select></p><br>
+        <p>Phone Number: <input class="onlyNumber" maxlength="11" minlength="11" type="text" id="phone" name="phone" required></p>
+        <p><textarea rows="4" cols="50" placeholder="Address" name="adress" required></textarea></p>
+        <p>Zip Code: <input class="onlyNumber" maxlength="5" minlength="5" type="text" name="zipCode" required></p>
+        <p>Credit Card Number: <input class="onlyNumber" maxlength="12" minlength="12" id="creditCard" type="text" name="creditCard" required></p>
+        <p>Expiry Date: <select name="months" id="months" required></select> <select name="years" id="years" required></select> </p><br>
+        <p>CV: <input class="onlyNumber" maxlength="3" minlength="3" type="text" id="CV" name="CV" required></p><br>
+        <input type="submit" id="submitPaymentForm" name="submitPaymentForm" value="Send">
       </form>
     </div>
 
@@ -68,7 +71,7 @@
     <!--Footer-->
     <div class="footer">
         <p>If you enjoyed our website you can also visit our social media adresses.</p>
-        
+
         <a href="#"><i class="fa fa-twitter"></i></a>
         <a href="#"><i class="fa fa-github"></i></a>
         <a href="#"><i class="fa fa-instagram"></i></a>

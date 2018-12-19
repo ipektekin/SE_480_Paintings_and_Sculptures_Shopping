@@ -298,12 +298,18 @@ input::-webkit-inner-spin-button {
 
 #paymentForm {
     text-align: center;
-    width: 900px;
+    width: 500px;
     margin: 0 auto;
     margin-bottom: 20px;
 }
 
 #paymentForm p {
     font-family: Lucida Sans Unicode, Helvetica, sans-serif;
+    display: inline-block;
+    color: #1a1a1a;
 }
 
+.paymentForm {
+    padding: 20px;
+    background: #009999;
+}
