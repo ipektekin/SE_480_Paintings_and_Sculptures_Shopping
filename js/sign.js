@@ -50,3 +50,10 @@ function check_email() {
         enter.style.backgroundColor = "green";
     }
 }
+
+function showForgetPasswordArea() {
+    let forgotPasswordEmailArea = document.getElementsByName("forgetPasswordSubmit")[0]; // Buttonu aldık
+    let enterYourEmailArea = document.getElementById("enterYourEmail"); // Hidden Part
+    let forgotPasswordEmailSubmit = document.getElementById("forgotPasswordEmailSubmit");
+    forgotPasswordEmailArea.onclick = enterYourEmailArea.hidden = false;
+}
