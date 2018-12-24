@@ -65,10 +65,10 @@
           <input class="sendbtn" name="forgetPasswordSubmit" type="button" value="Forget Password" 
           onclick="showForgetPasswordArea()">
           <div id="hiddenDiv" hidden>
-                <form id="hiddenForm" action="php/forgotpassword.php">
-                    <p id="enterYourEmail">Enter your email: <input type="email" name="emailForForgotPassword" required> </p>
-                    <p id="enterYourUsername">Enter your username: <input type="text" name="usernameForForgotPassword" required> </p>
-                    <p id="enterYourNewPassword">Enter your new password: <input type="text" name="passwordForForgotPassword" required> </p>
+                <form action="php/forgotpassword.php" method="POST">
+                    <p id="enterYourEmail">Email: <input type="email" name="emailForForgotPassword" required> </p>
+                    <p id="enterYourUsername">Username: <input type="text" name="usernameForForgotPassword" required> </p>
+                    <p id="enterYourNewPassword">New Password: <input type="text" name="passwordForForgotPassword" required> </p>
                     <br><input type="submit" name="forgotPasswordEmailSubmit" id="forgotPasswordEmailSubmit" class="sendbtn" value="Send"></p>
                 </form>
           </div>

@@ -58,7 +58,7 @@ function showForgetPasswordArea() {
     let enterYourUsername = document.getElementById("enterYourUsername"); // Username
     let enterYourNewPassword = document.getElementById('enterYourNewPassword'); // New Password
     let forgotPasswordEmailSubmit = document.getElementById("forgotPasswordEmailSubmit"); // Submit butonu
-    let hiddenForm = document.getElementById('hiddenForm');*/
+   */
     forgotPasswordEmailArea.onclick = function() {
        hiddenDiv.hidden= false;
     }

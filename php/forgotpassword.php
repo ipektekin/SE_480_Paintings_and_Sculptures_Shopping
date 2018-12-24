@@ -1,5 +1,4 @@
 <?php
-echo("OK");
     include("config.php");
     require_once('PHPMailer/PHPMailerAutoload.php');
     
