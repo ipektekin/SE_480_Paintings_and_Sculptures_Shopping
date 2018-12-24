@@ -42,7 +42,7 @@
             $mail->isHtml();
             $mail->Username = 'deneme1231231234@gmail.com';
             $mail->Password = 'eewweeww'; 
-            $mail->SetFrom('artgalery');
+            $mail->SetFrom('Art Gallery');
             $mail->Subject = 'Your New Password';
             $mail->Body = "Your new password is: ". $newPassword;
             $mail->AddAddress($email);
