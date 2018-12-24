@@ -45,7 +45,7 @@
       </p>
     </div>
        <form class="register" action="php/register.php" method="POST">
-        <h3>Register</h3>
+          <h3>Register</h3>
           <p>Name: <input type="text" name="name" required></p>
           <p>Surname: <input type="text" name="surname" required></p>
           <p>Username: <input type ="text" name="username" required></p>
@@ -58,15 +58,22 @@
        </form>
       <form class="login" action="php/login.php" method="POST">
           <h3>Login</h3>
-          <p>Username: <input type ="text" name="username" required></p>
-          <p>Password: <input type="password" name="password" required></p>
+          <p>Username: <input type ="text" name="username"></p>
+          <p>Password: <input type="password" name="password"></p>
           <p>Remember me: <input type="checkbox" name="rememberMe"></p>
           <input class="sendbtn" name="loginSubmit" type="submit" value="Login">
-          <input class="sendbtn" name="forgetPasswordSubmit" type="submit" value="Forget Password" 
+          <input class="sendbtn" name="forgetPasswordSubmit" type="button" value="Forget Password" 
           onclick="showForgetPasswordArea()">
-          <p id="enterYourEmail" hidden>Enter your email <input type="email" name="emailForForgotPassword">
-          <br><input type="button" id="forgotPasswordEmailSubmit" class="sendbtn" value="Send"></p>
-      </form>
+          <div id="hiddenDiv" hidden>
+                <form id="hiddenForm" action="php/forgotpassword.php">
+                    <p id="enterYourEmail">Enter your email: <input type="email" name="emailForForgotPassword" required> </p>
+                    <p id="enterYourUsername">Enter your username: <input type="text" name="usernameForForgotPassword" required> </p>
+                    <p id="enterYourNewPassword">Enter your new password: <input type="text" name="passwordForForgotPassword" required> </p>
+                    <br><input type="submit" name="forgotPasswordEmailSubmit" id="forgotPasswordEmailSubmit" class="sendbtn" value="Send"></p>
+                </form>
+          </div>
+          
+        </form>
   </div>
 
     <!--Footer-->
