@@ -20,16 +20,18 @@
         
     }
 
+    // Forgot Password Transactions
     if (isset($_POST['forgotPasswordEmailSubmit'])) {
         $email = $_POST['emailForForgotPassword'];
         $username = $_POST['usernameForForgotPassword'];
         $newPassword = $_POST['passwordForForgotPassword'];
 
+        // Check whether this username is registered to system or not
         $query = "Select * from Users where username = '$username'";
         $result = mysqli_query($con, $query) or die(mysql_error());
         if (mysqli_num_rows($result) > 0) {
             // Before sending email update user's password
-            $query = "Update Users(username, password, confirmPassword) set password='$newPassword', confirmPassword='$newPassword' where
+            $query = "Update Users set password='$newPassword', confirmPassword='$newPassword' where
             username='$username'";
             $result = mysqli_query($con, $query);
 
