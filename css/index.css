@@ -46,6 +46,14 @@ input[type=password] {
     /* Black w/ opacity */
 }
 
+.modal h1 {
+    color: #1a1a1a;
+}
+
+.modal p {
+    font-family: Bahnschrift Condensed, Helvetica, sans-serif;
+}
+
 /* Modal Content */
 .modal-content {
     background-color: #666666;
@@ -68,14 +76,6 @@ input[type=password] {
     color: #000;
     text-decoration: none;
     cursor: pointer;
-}
-
-.myModal h1 {
-    color: #1a1a1a;
-}
-
-.myModal p {
-    font-family: Bahnschrift Condensed, Helvetica, sans-serif;
 }
 
 
