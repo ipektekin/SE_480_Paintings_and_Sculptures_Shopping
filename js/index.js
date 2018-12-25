@@ -151,3 +151,9 @@ document.getElementById('gallery').innerHTML = "<div class='gallery'>"+
 "<img src='"+mainPageArtPieceArray[7].image+"' width='300' height='200'></a>"+"<div class='desc'>Art Piece: "+mainPageArtPieceArray[7].name+"<br>"+
 "Artist: "+mainPageArtPieceArray[7].artist+"<div class='price'>Price: "+mainPageArtPieceArray[7].price+"</div><a href='"+mainPageArtPieceArray[7].artistDomain+"'><button class='buy'>Buy</button></a>"+
 "</div></div>";
+
+//Scrolling to Bottom
+function ScrollPage(){
+    var element = document.getElementsByClassName("footer")[0];
+    element.scrollIntoView();
+}
