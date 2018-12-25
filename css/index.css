@@ -68,7 +68,15 @@ input[type=password] {
     color: #000;
     text-decoration: none;
     cursor: pointer;
-}  
+}
+
+.myModal h1 {
+    color: #1a1a1a;
+}
+
+.myModal p {
+    font-family: Bahnschrift Condensed, Helvetica, sans-serif;
+}
 
 
 /*------------------INDEX PAGE-----------------------*/
