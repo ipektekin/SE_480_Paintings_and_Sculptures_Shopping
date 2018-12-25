@@ -54,11 +54,6 @@ function check_email() {
 function showForgetPasswordArea() {
     let hiddenDiv = document.getElementById("hiddenDiv");
     let forgotPasswordEmailArea = document.getElementsByName("forgetPasswordSubmit")[0]; // Buttonu aldık
-    /*let enterYourEmailArea = document.getElementById("enterYourEmail"); // Email
-    let enterYourUsername = document.getElementById("enterYourUsername"); // Username
-    let enterYourNewPassword = document.getElementById('enterYourNewPassword'); // New Password
-    let forgotPasswordEmailSubmit = document.getElementById("forgotPasswordEmailSubmit"); // Submit butonu
-   */
     forgotPasswordEmailArea.onclick = function() {
        hiddenDiv.hidden= false;
     }

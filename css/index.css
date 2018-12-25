@@ -260,8 +260,10 @@ div.price {
     margin-bottom: 20px;
 }
 
+
+
 .login {
-    float: right;
+    /*float: right;*/
     margin-top: 85px;
     padding: 50px;
     padding-top: 100px;
@@ -278,7 +280,7 @@ div.price {
     margin-top: 85px;
     padding: 50px;
     padding-top: 100px;
-    float: left;
+    /*float: left;*/
     background: #d0d4db;
 }
 

@@ -9,12 +9,12 @@
         $result = mysqli_query($con, $query) or die(mysql_error());
         if (mysqli_num_rows($result) > 0) {
             echo "<script>alert('Access granted'); 
-            window.location = 'http://localhost/SE_480_Paintings_and_Sculptures_Shopping/sign.html';
+            window.location = 'http://localhost/SE_480_Paintings_and_Sculptures_Shopping/login.html';
             </script>";
         }
         else {
             echo "<script>alert('Access denied');
-            window.location = 'http://localhost/SE_480_Paintings_and_Sculptures_Shopping/sign.html';        
+            window.location = 'http://localhost/SE_480_Paintings_and_Sculptures_Shopping/login.html';        
             </script>"; 
         }
         
@@ -56,14 +56,14 @@
                 // set time out koy
             } else {
                 echo "<script>alert('Your new password has sent to your email address!');
-                window.location = 'http://localhost/SE_480_Paintings_and_Sculptures_Shopping/sign.html';
+                window.location = 'http://localhost/SE_480_Paintings_and_Sculptures_Shopping/login.html';
                 </script>";
             }
         }
 
         else {
             echo "<script>alert('This username is not registered to system!');
-            window.location = 'http://localhost/SE_480_Paintings_and_Sculptures_Shopping/sign.html';
+            window.location = 'http://localhost/SE_480_Paintings_and_Sculptures_Shopping/login.html';
             </script>";
         }
     }
