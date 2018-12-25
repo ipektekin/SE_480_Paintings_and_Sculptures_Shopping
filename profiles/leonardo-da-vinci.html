@@ -46,10 +46,24 @@
             </div>
             <div class="artPieces">
                     <div class="gallery">
-                        <figure class="zoom" onmousemove="zoom(event)"><img src='../img/paintings/leanardo-da-vinci/mona-lisa.png' width="300" height="200"></figure>
-                        
+                        <img src='../img/paintings/leanardo-da-vinci/mona-lisa.png' width="300" height="200">
                         <div class="desc">Art Piece: Mona Lisa<br>Artist: Leonardo Da Vinci
                             <div class="price">Price: 500$</div>
+                             <!-- Trigger/Open The Modal -->
+                            <button id="myBtn" class="sendbtn">Details</button>
+                            <!-- The Modal -->
+                            <div id="myModal" class="modal">
+                             <!-- Modal content -->
+                                <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <h1 style="color: #1a1a1a">Mona Lisa</h1>
+                                <img src="../img/paintings/leanardo-da-vinci/mona-lisa.png" alt="" style="width: 300px; height: 300px;" >
+                                <p><b>Dimensions</b>: 77 cm × 53 cm </p>
+                                <p><b>Year</b>: 1506</p>
+                                <p><b>Type</b>: Oil and poplar panel</p>
+                                <p></p>
+                                </div>
+                            </div>
                             <a href="../address.php"><button class="buy">Buy</button></a>
                         </div>
                     </div>
@@ -57,6 +71,21 @@
                         <img src='../img/paintings/leanardo-da-vinci/last-supper.jpg' width="300" height="200">
                         <div class="desc">Art Piece: Last Supper<br>Artist: Leonardo Da Vinci
                             <div class="price">Price: 100$</div>
+                            <!-- Trigger/Open The Modal -->
+                            <button id="myBtn" class="sendbtn">Details</button>
+                            <!-- The Modal -->
+                            <div id="myModal" class="modal">
+                             <!-- Modal content -->
+                                <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <h1 style="color: #1a1a1a">Mona Lisa</h1>
+                                <img src="../img/paintings/leanardo-da-vinci/mona-lisa.png" alt="" style="width: 300px; height: 300px;" >
+                                <p><b>Dimensions</b>: 77 cm × 53 cm </p>
+                                <p><b>Year</b>: 1506</p>
+                                <p><b>Type</b>: Oil and poplar panel</p>
+                                <p></p>
+                                </div>
+                            </div>
                             <a href="../address.php"><button class="buy">Buy</button></a>
                         </div>
                     </div>
@@ -87,4 +116,5 @@
             <!--Footer ending-->
     </body>
     <script src="../js/profile.js"></script>
+    <script src="../js/details.js"></script>
 </html>
