@@ -14,13 +14,13 @@
         $months = $_POST['months'];
         $years = $_POST['years'];
         $CV = $_POST['CV'];
-        $expiryDate = $months + $years;
+        $expiryDate = "$months/$years";
 
-    $query = "Insert into Payments(name, surname, country, state, phone, address, zipCode, creditCard, 
-    expiryDate, CV) values('$name', '$surname', '$country', '$state', '$phone', '$address', '$zipCode', 
-    '$creditCard', '$expiryDate', '$CV')";
-    $result = mysqli_query($con, $query);
-    echo "<script>alert('Your payment has successfully done'+ $expiryDate);</script>";
+        $query = "Insert into Payments(name, surname, country, state, phone, address, zipCode, creditCard, 
+        expiryDate, CV) values('$name', '$surname', '$country', '$state', '$phone', '$address', '$zipCode', 
+        '$creditCard', '$expiryDate', '$CV')";
+        $result = mysqli_query($con, $query);
+        echo "<script>alert('Your payment has successfully done');</script>";
     }
 
     
